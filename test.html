@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title name will go here</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/body.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo_bar">
+                <img class="logo" src="./img/logo.png" width="44px">
+            </div>
+            <div class="menu_bar">
+                <ul class="menu">
+                    <li class="menu_item">
+                        <a href="#">Dashboard
+                            <span class="caret"></span>
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#">Edit Time</a>
+                    </li>
+                    <li class="menu_item"><a href="#">Screenshots</a></li>
+                    <li class="menu_item">
+                        <a href="#">Reports
+                            <span class="caret"></span>
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#">Payments
+                            <span class="caret"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="info_bar">
+                <div class="info_sound">
+                    <img class="sound" src="./img/sound.png" />
+                </div>
+                <div class="help_dropdown">
+                    <img class="help" src="./img/help.png" />
+                    <span class="caret"></span>
+                </div>
+                <div class="setting_dropdown">
+                    <img class="setting" src="./img/setting.png" />
+                    <span class="caret"></span>
+                </div>
+                <div class="info_avatar">
+                    <img class="info_company" src="./img/avatar.png" />
+                </div>
+                <div class="separator">
+                </div>
+                <div class="company_dropdown">
+                    <img class="info_company" src="./img/company.png" />
+                    <span class="caret"></span>
+                </div>
+            </div>
+        </header>
+        <div class="title_bar">
+            <div class="title">
+                Company Dashboard
+            </div>
+        </div>      
+        <div class="keyboard col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="title_bar">
+                <div class="title">
+                    Keyboard & Mouse Activity
+                </div>
+                <div class="setting_title">
+                    <div class="dropdown monthly">
+                        <div data-toggle="dropdown">
+                            <span class="dropdown_label">
+                                Monthly
+                            </span>
+                            <img src="./img/downarrow.svg" />
+                        </div>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li class="menu_item1"><a href="#">Monthly</a></li>
+                            <li class="menu_item2"><a href="#">Daily</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu dropdown">
+                        <img src="./img/dropdown.svg" data-toggle="dropdown">
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li class="menu_item"><a href="#">Edit widget</a></li>
+                            <li class="menu_item"><a href="#">Delete widget</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="separator">
+            </div>
+            <div class="content">
+                <div class="content_list">
+                    <div class="item_avatar">
+                        <img src="./img/avatar1.png" />
+                    </div>
+                    <div class="item_name">
+                        Samuel Barrett
+                    </div>
+                    <div class="item_chart">
+                        <canvas id="keyboard_chart1"></canvas>
+                    </div>
+                    <div class="item_percent">
+                        98%
+                    </div>
+                </div>
+                <div class="content_list">
+                    <div class="item_avatar">
+                        <img src="./img/avatar2.png" />
+                    </div>
+                    <div class="item_name">
+                        Scott Love
+                    </div>
+                    <div class="item_chart">
+                        <canvas id="keyboard_chart2"></canvas>
+                    </div>
+                    <div class="item_percent">
+                        88%
+                    </div>
+                </div>
+                <div class="content_list">
+                    <div class="item_avatar">
+                        <img src="./img/avatar3.png" />
+                    </div>
+                    <div class="item_name">
+                        Michael McDaniel
+                    </div>
+                    <div class="item_chart">
+                        <canvas id="keyboard_chart3"></canvas>
+                    </div>
+                    <div class="item_percent">
+                        81%
+                    </div>
+                </div>
+                <div class="content_list">
+                    <div class="item_avatar">
+                        <img src="./img/avatar4.png" />
+                    </div>
+                    <div class="item_name">
+                        Alejandro Wilkerson
+                    </div>
+                    <div class="item_chart">
+                        <canvas id="keyboard_chart4"></canvas>
+                    </div>
+                    <div class="item_percent">
+                        78%
+                    </div>
+                </div>
+                <div class="content_list">
+                    <div class="item_avatar">
+                        <img src="./img/avatar5.png" />
+                    </div>
+                    <div class="item_name">
+                        Ivan Fowler
+                    </div>
+                    <div class="item_chart">
+                        <canvas id="keyboard_chart5"></canvas>
+                    </div>
+                    <div class="item_percent">
+                        71%
+                    </div>
+                </div>
+            </div>
+            <div class="separator">
+            </div>
+            <div class="tail">
+                <img class="tail_avatar1" src="./img/avatar1.png" />
+                <img class="tail_avatar2" src="./img/avatar2.png" />
+                <img class="tail_avatar2" src="./img/avatar3.png" />
+                <span class="tail_label">
+                    +900 more
+                </span>
+                <span class="tail_badge">
+                    LOWEST
+                </span>
+            </div>
+        </div>
+        <div class="mobile col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="title_bar">
+                <div class="title">
+                    Highest percentage of Mobile Time Users
+                </div>
+                <div class="setting_title">
+                    <div class="dropdown monthly">
+                        <div data-toggle="dropdown">
+                            <span class="dropdown_label">
+                                Weekly
+                            </span>
+                            <img src="./img/downarrow.svg" />
+                        </div>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li class="menu_item1"><a href="#">Weekly</a></li>
+                            <li class="menu_item2"><a href="#">Daily</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu dropdown">
+                        <img src="./img/dropdown.svg" data-toggle="dropdown">
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li class="menu_item"><a href="#">Edit widget</a></li>
+                            <li class="menu_item"><a href="#">Delete widget</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="separator">
+            </div>
+            <div class="content">
+                <div class="content_list">
+                    <div class="list_item">
+                        <div class="list_item_mark">
+                            <canvas id="mobile_mark1" width="14px" height="14px"></canvas>
+                        </div>
+                        <div class="list_item_detail">
+                            <div class="list_item_name">
+                                Benjamin Tyler
+                            </div>
+                            <div class="list_item_time">
+                                20h 45m
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_item">
+                        <div class="list_item_mark">
+                            <canvas id="mobile_mark2" width="14px" height="14px"></canvas>
+                        </div>
+                        <div class="list_item_detail">
+                            <div class="list_item_name">
+                                Darrell Hart
+                            </div>
+                            <div class="list_item_time">
+                                20h 45m
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_item">
+                        <div class="list_item_mark">
+                            <canvas id="mobile_mark3" width="14px" height="14px"></canvas>
+                        </div>
+                        <div class="list_item_detail">
+                            <div class="list_item_name">
+                                Lester Douglas
+                            </div>
+                            <div class="list_item_time">
+                                20h 45m
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_item">
+                        <div class="list_item_mark">
+                            <canvas id="mobile_mark4" width="14px" height="14px"></canvas>
+                        </div>
+                        <div class="list_item_detail">
+                            <div class="list_item_name">
+                                Georgia Harper
+                            </div>
+                            <div class="list_item_time">
+                                20h 45m
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_item">
+                        <div class="list_item_mark">
+                            <canvas id="mobile_mark5" width="14px" height="14px"></canvas>
+                        </div>
+                        <div class="list_item_detail">
+                            <div class="list_item_name">
+                                Olga Simpson
+                            </div>
+                            <div class="list_item_time">
+                                20h 45m
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_chart">
+                    <canvas id="chart_detail" width="215px" height="215px"></canvas>
+                </div>
+            </div>
+            <div class="separator">
+            </div>
+            <div class="tail">
+                <img class="tail_avatar1" src="./img/avatar1.png" />
+                <img class="tail_avatar2" src="./img/avatar2.png" />
+                <img class="tail_avatar2" src="./img/avatar3.png" />
+                <span class="tail_badge">HIGHEST</span>
+            </div>
+        </div>
+        <script src="./js/chart.js"></script>
+    </body>
+    <script>
+        $(document).ready(function(){
+            $("header .menu_bar .menu_item").click(function(){
+                $("header .menu_bar .menu_item").removeClass("active");
+                $(this).addClass("active");
+            });
+            $(".keyboard .setting_title .monthly .menu_item1").click(function(){
+                $(".keyboard .setting_title .monthly .dropdown_label").text("Monthly");
+                console.log("click1");
+            });
+            $(".keyboard .setting_title .monthly .menu_item2").click(function(){
+                $(".keyboard .setting_title .monthly .dropdown_label").text("Daily");
+                console.log("click2");
+            });
+            $(".mobile .setting_title .monthly .menu_item1").click(function(){
+                $(".mobile .setting_title .monthly .dropdown_label").text("Weekly");
+                console.log("click1");
+            });
+            $(".mobile .setting_title .monthly .menu_item2").click(function(){
+                $(".mobile .setting_title .monthly .dropdown_label").text("Daily");
+                console.log("click2");
+            });
+        });
+    </script>
+</html>

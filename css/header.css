@@ -1,0 +1,122 @@
+body {
+    background-color: #f9f9f9;
+}
+header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #ffffff;
+}
+.logo_bar {
+    display: inline-block;
+}
+.logo {
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.menu_bar {
+    display: inline-block;
+    margin-bottom: -13px;
+}
+.info_bar {
+    float: right;
+}
+.company_dropdown {
+    margin-right: 31px;
+    margin-top: 17.5px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.info_company {
+    box-sizing: border-box;	
+    height: 37px;	
+    width: 37px;	
+    border: 1px solid #CFD8DC;	
+    border-radius: 4px;	
+    background-color: #FFFFFF;
+}
+.info_sound {
+    margin-top: 23.5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sound {
+    box-sizing: border-box;	
+    height: 23px;	
+    width: 23px;
+}
+.help_dropdown {
+    margin-top: 23.5px;
+    margin-left: 21px;
+    display: inline-block;
+    vertical-align: top;
+}
+.help {
+    box-sizing: border-box;	
+    height: 23px;	
+    width: 23px;
+}
+
+.setting_dropdown {
+    margin-top: 24px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.setting {
+    box-sizing: border-box;	
+    height: 22px;	
+    width: 22px;	
+}
+.info_avatar {
+    margin-right: 20px;
+    margin-top: 17.5px;
+    margin-left: 25.5px;
+    display: inline-block;
+    vertical-align: top;
+}
+header .separator {
+    border-right: 1px solid #CFD8DC;
+    display: inline-block;
+    height: 37px;
+    padding-top: 5px;
+    margin-top: 17.5px;
+    vertical-align: top;
+}
+header .caret {
+    color: #6d85a1;
+}
+header .menu_bar .menu_item {
+    float: left;
+    margin-bottom: -20px;
+    position: relative;
+    display: block;
+}
+header .menu_bar .menu_item:hover {
+    border-bottom: 2px solid #677dac;
+}
+header .menu_bar .menu_item.active {
+    border-bottom: 2px solid #677dac;
+}
+header .menu_bar .menu_item.active>a {
+    color: #677dac;
+}
+header .menu_bar .menu_item>a {
+    color: #162f4f;
+    cursor: default;
+    margin-right: 2px;
+    position: relative;
+    display: block;
+    padding: 25px 10px;
+    text-decoration: none;	
+    /*font-family: Roboto;*/
+    font-style: normal;
+    font-size: 18px;	
+    font-weight: 500;	
+    line-height: 21px;
+}
+
